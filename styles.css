@@ -1,0 +1,172 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Starting Section */
+
+.start-container {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.start {
+    display: flex;
+    flex-direction: column;
+    width: 950px;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    gap: 16px;
+}
+
+.start-content {
+    display: flex;
+    padding: 100px 0;
+    flex-shrink: 0;
+}
+
+.text-white {
+    color: #F9FAF8;
+}
+
+.text-offwhite {
+    color: #E5E7EB;
+}
+
+.text-18px {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.orchestra-image {
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-links {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.main-text {
+    margin: 0;
+}
+
+.sub-text {
+    margin: 0;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.sign-up {
+    margin-top: 10px;
+}
+
+/* Info section */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 50px;
+}
+
+.info-content {
+    display: flex;
+    gap: 50px;
+}
+
+.info-image {
+    border: solid;
+    border-color: #3882F6;
+    border-width: 5px;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.caption {
+    width: 150px;
+    font-size: 16px;
+    color: grey;
+    margin-top: 8px;
+    font-weight: 300;
+}
+
+.infocard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Quote Section */
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    padding: 100px 0px;
+}
+
+.actual-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-author {
+    margin-left: auto;
+    padding-right: 50px;
+    font-weight: bold;
+    font-size: 18px;
+}
