@@ -170,3 +170,30 @@ button {
     font-weight: bold;
     font-size: 18px;
 }
+
+/* Action Section */
+
+.action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.action-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 950px;
+    background-color: #3882F6;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.action-text {
+    padding-left: 100px;
+}
+
+.action-button {
+    padding-right: 100px;
+}
